@@ -28,7 +28,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-mongoose.connect("mongodb+srv://admin:admin@cluster1.uv2oets.mongodb.net/userDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://#####@cluster1.uv2oets.mongodb.net/userDB", {useNewUrlParser: true});
 
 
 const userSchema = new mongoose.Schema({
